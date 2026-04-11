@@ -2,11 +2,9 @@
    BONZ REALTOR — Main Stylesheet
 
    FONT NOTE:
-   'Recoleta' (used for --font-title) and 'Test Tiempos Fine'
-   (used for --font-header) are commercial fonts. To use them,
-   self-host the font files and add @font-face declarations here.
-   'DM Serif Display' and 'Playfair Display' are free fallbacks
-   loaded from Google Fonts in index.html.
+   'Test Tiempos Fine' (used for --font-header) is a commercial font.
+   Self-host it and add an @font-face declaration here to activate it.
+   'Playfair Display' is used as a free fallback via Google Fonts.
    ============================================================ */
 
 /* ============================================================
@@ -64,7 +62,7 @@ button {
   --teal-subtle: rgba(38,  70,  83,  0.07);
 
   /* Typography */
-  --font-title:  'Recoleta',          'DM Serif Display', Georgia, serif;
+  --font-title:  'Fraunces',          Georgia, serif;
   --font-header: 'Test Tiempos Fine', 'Playfair Display',  Georgia, serif;
   --font-body:   'Karla',             'Helvetica Neue', Arial, sans-serif;
   --font-quote:  'Italiana',          Georgia, serif;
