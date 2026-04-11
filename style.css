@@ -104,10 +104,10 @@ button {
 .section-eyebrow {
   display: block;
   font-family: var(--font-quote);
-  font-size: 1rem;
+  font-size: 18px;
   color: var(--coral);
   letter-spacing: 0.08em;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .section-header {
@@ -469,7 +469,7 @@ button {
 .jna-eyebrow {
   display: block;
   font-family: var(--font-quote);
-  font-size: 1rem;
+  font-size: 18px;
   color: var(--sage);
   letter-spacing: 0.08em;
   margin-bottom: 16px;
@@ -762,7 +762,7 @@ button {
 .booking-eyebrow {
   display: block;
   font-family: var(--font-quote);
-  font-size: 1rem;
+  font-size: 18px;
   color: rgba(253, 247, 221, 0.65);
   letter-spacing: 0.08em;
   margin-bottom: 16px;
