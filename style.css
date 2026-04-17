@@ -637,6 +637,24 @@ button {
   flex-shrink: 0;
 }
 
+.reviews-more {
+  text-align: center;
+  margin-top: 28px;
+}
+.reviews-more a {
+  font-family: var(--font-body);
+  font-size: 0.93rem;
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid var(--sage);
+  padding-bottom: 2px;
+  transition: color var(--t), border-color var(--t);
+}
+.reviews-more a:hover {
+  color: var(--sage);
+  border-color: var(--sage);
+}
+
 .review-text {
   font-family: var(--font-body);
   font-size: 0.93rem;
